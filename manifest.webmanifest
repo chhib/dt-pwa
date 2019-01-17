@@ -1,0 +1,14 @@
+{
+  "name": "My First PWA Attempt",
+  "short_name": "PWA1",
+  "start_url": "/pwa.html",
+  "display": "standalone",
+  "theme_color": "red",
+  "background_color":"green",
+  "icons": [
+    {
+      "src": "/Artboard.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+}

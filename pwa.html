@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <title>My first PWA</title>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      };
+    </script>
+    <meta name="theme-color" content="#FFF200">
+	</head>
+	<body>
+		<h1>PWA?</h1>
+	</body>
+</html>
